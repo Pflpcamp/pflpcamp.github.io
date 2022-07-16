@@ -21,7 +21,7 @@ ul.navbar {
     height: 60px;
     width: 100%;
     position: fixed;
-    top: 0;
+    top: 0px;
     margin-top: 0;
 }
  li.nav a {
@@ -31,13 +31,23 @@ ul.navbar {
     color: black;
     text-align: center;
     height: 60px;
-    padding-top: 17px;
+    padding-top: 18px;
     font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 li.nav a:hover{
     background-color: gray;
     text-transform: uppercase;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.logo:hover {
+    background-color: gray;
 }
 
 
